@@ -81,13 +81,10 @@ This simulation models a factory floor where **machines, robots/workers, supplie
 
 ## 📊 Metrics Tracked
 
-The environment keeps global counters such as (examples):
+The environment keeps global counters such as:
 - **Jobs:** `jobs_created`, `jobs_completed`, `jobs_lost`
 - **Supplies:** `supply_requests_ok`, `supply_requests_failed`
 - **Failures & Maintenance:** `machine_failures`, `repairs_started`, `repairs_finished`, `downtime_ticks`
 - **Resilience:** `jobs_transferred`
 
 
-Your repo may use either `src/` (recommended) or the original folder name (e.g., `trabalhonovo/`).
-
-Recommended layout:
